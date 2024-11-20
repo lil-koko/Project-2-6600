@@ -10,8 +10,7 @@ sns.set_palette("Set2")
 
 
 def load_data():
-    df = pd.read_csv(
-        r'C:\Users\NJ\Desktop\Streamlit\Price_Agriculture_commodities_Week.csv')
+    df = pd.read_csv('Price_Agriculture_commodities_Week.csv')
     return df
 
 
